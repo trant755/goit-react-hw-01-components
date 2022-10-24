@@ -5,7 +5,9 @@ export const Table = styled.table`
   text-align: center;
   border-radius: 4px;
   overflow: hidden;
-  border: 1px solid;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: ${p => p.theme.colors.darkGrey};
 `;
 
 export const Th = styled.th`
